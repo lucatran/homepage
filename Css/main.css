@@ -1,0 +1,246 @@
+body {
+  overflow-x: hidden;
+  color: #666666;
+}
+/* PAGE HEADER */
+
+.page-header {
+  height: 130px;
+}
+.page-bar {
+  height: 50px;
+}
+.page-breadcrumb {
+  float: left;
+  margin: 10px 30px;
+}
+.page-breadcrumb span{
+  padding-left: 10px;
+}
+.dropbtn {
+  background-color: #ffffffda;
+  border: 1px solid #32c5d2;
+  color: #32c5d2;
+  height: 30px;
+  width: 90px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.dropbtn i {
+  padding-left: 5px;
+  transform: translateY(3px);
+}
+
+.dropdown {
+  float: right;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transform: translateY(10px);
+  right: 10px;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content i {
+  margin: 0 5px;
+}
+.dropdown:hover .dropbtn {
+  background-color: #32c5d2;
+  color: white;
+}
+.page-title {
+  height: 80px;
+  background-color: #eef1f5;
+  color: #666666;
+}
+.page-title h1 {
+  font-size: 28px;
+  padding: 20px 20px;
+}
+
+/* PAGE CAROUSEL */
+.about-header {
+  height: 500px;
+  background-image: url(../IMG/carousel.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.carousel-title {
+  position: absolute;
+  top: 180px;
+  left: 500px;
+  color: white;
+}
+.carousel-title h1 {
+  text-align: center;
+  transform: translateY(-20px);
+}
+.carousel-title button {
+  transform: translate(230px, 30px);
+}
+
+/* PAGE-ABOUT */
+/* +about-content */
+.about-content {
+  padding: 40px;
+  padding-left: 70px;
+  background-color: #eef1f5;
+}
+.card-items {
+  background-color: white;
+  position: relative;
+  height: 300px;
+}
+.card-icon {
+  position: absolute;
+  font-size: 45px;
+  padding: 12px 25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  top: 40px;
+  left: 120px;
+  border: 1px solid #eef1f5;
+}
+.card-icon .fa-user-plus {
+  color: red;
+}
+.card-icon .fa-trophy {
+  color: #54bcb5;
+}
+.card-icon .fa-shopping-cart {
+  color: #9b59b6;
+}
+.card-icon .fa-layer-group {
+  color: #3598dc;
+}
+.card-title {
+  text-align: center;
+  transform: translateY(180px);
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-desc {
+  text-align: center;
+  transform: translateY(180px);
+  font-size: 15px;
+}
+/* +about-metronic */
+.about-metronic {
+  padding: 10px;
+  padding-left: 70px;
+  background-color: #eef1f5;
+}
+.about-text {
+  background-color: white;
+}
+.about-text .fa-info {
+  font-size: 12px;
+  height: 24px;
+  width: 24px;
+  border: 2px solid white;
+  padding-top: 3px;
+  padding-left: 8px;
+  border-radius: 50%;
+  transform: translateY(-5px);
+}
+.about-text h4 {
+  background-color: #d9534f;
+  height: 80px;
+  color: white;
+  padding: 20px 20px;
+  font-weight: bold;
+}
+.about-text p {
+  padding-left: 20px;
+}
+.list-unstyled {
+  margin: 10px 40px;
+}
+.about-quote h3 {
+  border-left: 3px solid #ccc;
+  font-style: italic;
+  font-size: 23px;
+  padding: 0 25px;
+  margin-left: 25px;
+}
+.about-author {
+  text-align: right;
+  padding: 10px 10px;
+}
+
+/* PAGE MEMBER */
+
+.member-title {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #eef1f5;
+}
+.member-stories {
+  background-color: #eef1f5;
+  padding: 40px;
+  padding-left: 70px;
+}
+.member-contact {
+  background-color: white;
+  height: 400px;
+}
+.member-contact .photo {
+  text-align: center;
+  padding-top: 50px;
+}
+.member-contact .title {
+  text-align: center;
+  padding-top: 10px;
+}
+.member-contact .desc {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.button-see {
+  background-color: #eef1f5;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* FOOTER */
+.about-links {
+  background-color: white;
+}
+.about-links-item {
+  padding-top: 40px;
+  transform: translateX(70px);
+}
+.about-links-item li {
+  list-style: none;
+  transform: translateX(-40px);
+}
+.about-links-item a {
+  color: #508fba;
+  
+}
